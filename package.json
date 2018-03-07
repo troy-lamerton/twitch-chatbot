@@ -1,0 +1,16 @@
+{
+  "name": "twitch-chatbot",
+  "version": "1.0.0",
+  "main": "./bot/index.js",
+  "repository": "git@github.com:troy-lamerton/twitch-chatbot.git",
+  "author": "Troy Lamerton <troy.lamerton@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon ./bot",
+    "production": "node ./bot"
+  },
+  "dependencies": {
+    "irc": "^0.5.2",
+    "nodemon": "^1.17.1"
+  }
+}
